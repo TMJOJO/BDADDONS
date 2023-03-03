@@ -1,0 +1,25 @@
+/**
+ * @name LightLess
+ * @author Jotaro
+ * @version 0.0.1
+ * @description Makes discord visually easier on the eyes
+ * @source https://github.com/TMJOJO/BDADDONS/main/Themes/Lightless.CSS
+ * @updateUrl https://raw.githubusercontent.com/TMJOJO/BDADDONS/main/Themes/Lightless.CSS
+ */
+
+:root{
+    --background-tertiary: rgb(0, 0, 0);
+    --background-secondary: rgb(0, 0, 0); 
+    --background-secondary-alt: rgb(0, 0, 0);
+    --background-primary: rgb(0, 0, 0);
+    --channeltextarea-background: rgb(0, 0, 0);
+    --background-accent: rgb(0, 0, 0);
+    --background-message-hover: transparent;
+    --background-modifier-hover: rgb(0, 0, 0);
+    --background-modifier-active: rgb(0, 0, 0);
+    --background-modifier-selected: rgb(0, 0, 0);
+    --background-floating: rgb(0, 0, 0);
+    --scrollbar-auto-thumb: rgb(0, 0, 0);
+    --scrollbar-auto-track: rgb(0, 0, 0);    
+    --scrollbar-thin-thumb: rgb(0, 0, 0);
+}
