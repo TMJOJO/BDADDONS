@@ -3,6 +3,8 @@
  * @author Jotaro
  * @version 0.0.1
  * @description Quickly Edit Ui elements to troll. 
+ * @source https://github.com/TMJOJO/BDADDONS/main/Plugins/DesignMode.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/TMJOJO/BDADDONS/main/Plugins/DesignMode.plugin.js
  */
 
 class DesignMode {
