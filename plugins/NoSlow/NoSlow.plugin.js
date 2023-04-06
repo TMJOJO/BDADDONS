@@ -4,7 +4,7 @@
  * @version 0.1.0
  * @description just hate the annoying message that pops up when you spam in a SPAM channel? this plugin is for you! though your messages might get ratelimited
  * @source https://github.com/TMJOJO/BDADDONS
- * @updateURL raw.githubusercontent/TMJOJO/BDADDONS/NoSlow.plugin.js
+ * @updateURL https://raw.githubusercontent/TMJOJO/BDADDONS/NoSlow.plugin.js
  */
 
 class NoSlow {
