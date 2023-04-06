@@ -22,7 +22,7 @@ const observer = new MutationObserver(function(mutations_list) {
 	});
 });
 
-observer.observe(document.querySelector("#app-mount"), { subtree: true, childList: false });
+observer.observe(document.querySelector("#app-mount"), { subtree: true, childList: true });
 }
   stop() {
     observer.disconnect
