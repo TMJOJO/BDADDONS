@@ -1,15 +1,15 @@
 /**
- * @name removepopup
+ * @name Removepopups
  * @author Jotaro
  * @version 0.1.0
- * @description remove every pop up
+ * @description remove every popup
  * @source https://github.com/TMJOJO/BDADDONS
- * @updateURL https://raw.githubusercontent/TMJOJO/BDADDONS/removepopup.plugin.js
+ * @updateURL https://raw.githubusercontent/TMJOJO/BDADDONS/Removepopup.plugin.js
  */
 
-class removepopup { 
+class rpopup {
 
-start() {
+start() { 
 const observer = new MutationObserver(function(mutations_list) {
 	mutations_list.forEach(function(mutation) {
 		mutation.addedNodes.forEach(function(added_node) {
@@ -25,9 +25,21 @@ const observer = new MutationObserver(function(mutations_list) {
 observer.observe(document.querySelector("#app-mount"), { subtree: true, childList: true });
 }
   stop() {
-    // no need for anything here as discord would recreate
-   // im trying to figure out what to put here
+    // since discord will recreate the elements we dont need anythin here
+ BdApi.showNotice(
+    "You need to restart discord inorder to disable Removepopups",
+    {
+        type: "error",
+        buttons: [
+            {
+                label: "Restart",
+                onClick: () => location.reload(true)
+            },
+        ]
+    }
+);
   }
+
 
   onLoad() {
     this.start();
@@ -38,4 +50,4 @@ observer.observe(document.querySelector("#app-mount"), { subtree: true, childLis
   }
 }
 
-module.exports = removepopup;
+module.exports = rpopup;
